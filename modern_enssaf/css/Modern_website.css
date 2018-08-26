@@ -1,0 +1,114 @@
+body{margin: 0;padding: 0;box-sizing: border-box;background-color: #193925 }
+
+/* ////////////// start header  ////////////////////// */
+.header{width: 100%; position: relative;background-color: gray;margin-top: 50px;height: 2300px;margin-bottom: 50px;border-radius: 20px;background-color: #77C18E;}
+
+.header .back-img1 {width: 100%;height: 100%; background-color: gray;position: absolute;top: 0px;left: 0px;z-index: 10;background-image:url(../img/back.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;opacity: .45}
+
+.header .content {width: 100%;height: 100px;position: absolute;top: 0;left: 0;z-index: 15}
+
+.header .content .navbar{background-color: transparent;border: none;padding: 30px}
+.header .content .navbar .navbar-header a{color: white;font-family: 'Uncial Antiqua', cursive;font-size: 40px}
+.header .content .navbar-nav{float: right;margin-top: 20px}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{color: white;background-color: #193925 ;}
+
+
+.navbar-default .navbar-nav>li>a {color: white;margin-left: 10px;padding-bottom: 5px;padding-top: 5px;line-height: 2.5;font-size: 15px;border-radius: 20px;font-family: 'Wallpoet', cursive;
+}
+
+.clearfix{clear: both}
+
+/* ////////////// End header  ////////////////////// */
+/* ////////////// start Carousel  ////////////////////// */
+
+.header #myCarousel{height: 500px;margin-top: 30px;position: relative;margin-bottom: 30px}
+
+.carousel-caption{position: absolute;left: 150px;top: 100px;width: 30%}
+
+.carousel-caption .h1{font-family: 'Ultra', serif;font-size: 30px;font-style: italic}
+.carousel-caption p{font-family: 'Wallpoet', cursive;font-size: 15px;font-style: italic;text-align: justify;color: #202020}
+
+.carousel-caption .btn{background-color:#193925 ; color: white;font-family: 'Wallpoet', cursive;position: absolute;left: 0px;margin-top: 10px;padding-top: 10px;padding-bottom: 10px}
+
+
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img {width: 350px; height: 350px; float: right;margin-right: 15%;margin-top: 5%;border: 20px solid #193925 ;border-radius: 50%}
+
+
+/* ////////////// end Carousel  ////////////////////// */
+/* ////////////// start service //////////////////// */
+.our-service {margin-bottom: 30px}
+.our-service .thumbnail {padding-left: 10px;padding-right: 10px}
+.our-service .thumbnail:first-child{margin-left: 4%}
+.our-service .thumbnail:last-child{margin-right: 4%}
+.our-service .thumbnail .glyphicon{font-size: 90px;margin-left: 25%;color: #193925;margin-top: 5%}
+.our-service .thumbnail h3{font-family: 'Wallpoet', cursive;text-align: justify}
+.our-service .thumbnail p{font-family: 'Yellowtail', cursive;line-height: 2;margin-top: 20px}
+.our-service .thumbnail:hover{
+    background-color: #193925;cursor: pointer
+}
+
+.our-service .thumbnail:hover .glyphicon,
+.our-service .thumbnail:hover h3,
+.our-service .thumbnail:hover p{color: white;cursor: pointer}
+/* ///////////// end service    ///////////////////  */
+
+
+.hr{margin-left: 10%;margin-right: 10%;margin-top: 60px}
+
+
+
+/* ///////// start our work /////////// */
+
+.latest-work{width: 80%;height: 700px;text-align: center;padding-top: 40px;position: relative;margin: auto;}
+.latest-work .h1{text-align: center;text-transform: capitalize;font-family: 'Ultra', serif;color: white;background-color: #193925;width: 300px;position: absolute;left: 37%;margin-bottom: 80px;top: -60px;padding-top: 10px;padding-bottom: 10px;border-radius: 20px;font-size:25px}
+.latest-work .thumbnail{width: 100%;height: 250px;font-family: 'Berkshire Swash', cursive}
+.latest-work .image-work{width: 100%;height: 80%;}
+.latest-work .image-work img{width: 100%;height: 100%;opacity: .5}
+.latest-work .image-work .caption {height: 10%;font-family: 'Berkshire Swash', cursive}
+.latest-work .image-work p {font-family: 'Berkshire Swash', cursive}
+
+/* ///////// end our work /////////// */
+
+
+
+/* /////////// start titles  /////////*/
+.our-title {margin: auto;width: 80%;position: relative;}
+.our-title h3{font-family: 'Berkshire Swash', cursive;color: white;font-size: 20px;margin-bottom: 40px;
+    
+
+
+}
+.our-title h4{font-family: 'Berkshire Swash', cursive;color: #193925;font-size: 18px;margin-top: 20px}
+.our-title p{color: #193925;line-height: 1.7;font-family: 'IM Fell French Canon SC', serif;}
+.our-title span{font-family: 'IM Fell French Canon SC', serif;color: #193925;font-style: italic;font-weight: bold}
+.our-title .btn{background-color: transparent;color:#193925;font-weight: bold;border: none}
+
+.our-title a{color: #193925;font-family: 'Berkshire Swash', cursive;line-height: 1.7}
+.our-title a:hover{text-decoration: underline}
+.our-title hr{margin-top: 4px}
+
+.our-title .p_sec{margin-top: 40px}
+
+
+.our-title input{margin-bottom: 10px;width: 100%;padding-top: 10px;padding-bottom: 10px;background-color: #202020;padding: 10px;border: none;border-radius: 20px}
+
+.our-title #message{height: 110px;padding-top: 0;padding-bottom: 0}
+.our-title #submite{background-color: #193925;color: #202020;font-family: 'Berkshire Swash', cursive;padding:15px;border-radius: 20px;width: 100%}
+
+
+
+
+
+
+
+/*//////////////////////// */
+.footer{color: white;margin-top: 30px;font-family: 'Berkshire Swash', cursive;}
+
+.footer .footer-p{text-align: right; font-size: 20px;margin-right: 40px}
+
+
+
+

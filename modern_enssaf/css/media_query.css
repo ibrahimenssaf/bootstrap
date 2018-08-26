@@ -1,0 +1,67 @@
+@media (max-width: 767px){
+    .header .content .navbar .navbar-header a{font-size: 27px;}
+    .header{height: 5000px}
+
+/***** carousel *****/
+    .carousel-inner>.item>a>img, 
+    .carousel-inner>.item>img{width: 220px;height: 220px;margin-bottom: 40px;margin-top: 37%}
+/**** service  *****/
+    .our-service .thumbnail .glyphicon{font-size: 80px;margin-left: 33%;color: #193925;margin-top: 5%}
+    .our-service .thumbnail h3{font-size: 20px;text-align: center}
+    
+/****   our work  ****/
+    .latest-work {margin-bottom: 500px}
+    .latest-work .h1{text-align: center;font-size: 15px;left: 30%;width: auto;padding: 20px;}
+    
+    .our-title {padding-top: 500px}
+    .our-title .col-sm-6{border: 2px solid #fff;margin-bottom: 10px;text-align: center}
+
+     /**** footer  ****/
+    .footer{font-size: 15px;text-align: center}
+    .footer .footer-p{text-align: center}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) { 
+    .header{height: 3200px}
+    .header .content .navbar .navbar-header a{}
+    .header .content .navbar-nav{float: left;}
+    
+    .navbar-default .navbar-nav>li>a {margin-left: 0px;font-size: 12px}
+
+    /****  carusoal ****/
+    .header #myCarousel{}
+    .carousel-caption{left: 70px}
+    .carousel-caption .h1{font-size: 20px}
+    
+    .carousel-inner>.item>a>img, 
+    .carousel-inner>.item>img{width: 250px;height: 250px;margin-bottom: 40px;margin-top: 20%}
+    
+    /****   our work  ****/
+    .latest-work .h1{left: 25%}
+    
+    /**** footer  ****/
+    .footer{font-size: 15px;text-align: center}
+    .footer .footer-p{text-align: center}
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px) { 
+    .header{height: 2500px}
+    .header .content .navbar .navbar-header a{}
+    .latest-work .h1{left: 30%}
+    .our-title a{line-height: 1.2;padding-top: 2px}
+    .our-title hr{margin-top: 4px;padding-bottom: 0}
+
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .header .content .navbar .navbar-header a{}
+}
+
+
